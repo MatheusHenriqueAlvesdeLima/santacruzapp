@@ -112,6 +112,7 @@ if (showSplash) {
            >
               <MessageCircle className="w-5 h-5 text-pink-400" />
             </a>
+          </div>
         </header>
         {/* Main Content */}
         <main className="px-6 mt-4">
