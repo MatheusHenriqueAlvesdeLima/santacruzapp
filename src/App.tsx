@@ -6,6 +6,7 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import Linkify from "linkify-react";
+import { FaWhatsapp } from "react-icons/fa6";
 import { 
   Search, 
   Calendar, 
@@ -110,7 +111,7 @@ if (showSplash) {
               rel="noopener noreferrer"
               className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-white/20 transition"
            >
-              <MessageCircle className="w-5 h-5 text-pink-400" />
+              <FaWhatsapp className="w-5 h-5 text-primary" />
             </a>
           </div>
         </header>
